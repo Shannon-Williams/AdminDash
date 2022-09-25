@@ -38,6 +38,7 @@ module.exports = {
       minHeight: {
         590: "590px",
       },
+      // tailwind config image no longer working needs to be updated
       backgroundImage: {
         "hero-pattern": "url('https://i.ibb.co/MkvLDfb/Rectangle-4389.png')",
       },
