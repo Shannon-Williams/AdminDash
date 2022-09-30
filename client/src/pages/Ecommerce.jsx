@@ -19,7 +19,7 @@ const Ecommerce = () => {
         <div
           // tailwind config image no longer working needs to be updated
           className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full 
-        p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center"
+        p-8 pt-9 m-3  bg-no-repeat bg-cover bg-center"
         >
           <div className="flex justify-between items-center">
             <div>
@@ -106,7 +106,7 @@ const Ecommerce = () => {
 
               <div className="mt-5">
                 <SparkLine
-                  currentColor="black"
+                  currentColor={currentColor}
                   id="line-sparkLine"
                   type="Line"
                   height="80px"
