@@ -75,7 +75,7 @@ const Navbar = () => {
       <div className="flex">
         <NavButton
           title="Cart"
-          customFunc={() => handleClick("cart")}
+          // customFunc={() => handleClick("cart")}
           color={currentColor}
           icon={<FiShoppingCart />}
         />
@@ -83,14 +83,14 @@ const Navbar = () => {
         <NavButton
           title="Chat"
           dotColor="#03C9D7"
-          customFunc={() => handleClick("chat")}
+          // customFunc={() => handleClick("chat")}
           color={currentColor}
           icon={<BsChatLeft />}
         />
         <NavButton
           title="Notifications"
           dotColor="#03C9D7"
-          customFunc={() => handleClick("notification")}
+          // customFunc={() => handleClick("notification")}
           color={currentColor}
           icon={<RiNotification3Line />}
         />
@@ -98,7 +98,7 @@ const Navbar = () => {
         <TooltipComponent content="Profile" position="BottomCenter">
           <div
             className="flex items-center gap-2 cursor-pointer p1 hover:bg-light-gray rounded-lg"
-            onClick={() => handleClick("userProfile")}
+            // onClick={() => handleClick("userProfile")}
           >
             <img src={avatar} className="rounded-full w-8 h-8" />
             <p>
