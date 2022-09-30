@@ -14,18 +14,18 @@ const ThemeSettings = () => {
     <div className="bg-half-transparent w-screen fixed nav-item top-0 right-0">
       <div className="float-right h-screen dark:text-gray-200 bg-white dark:[#484B52] w-400">
         <div className="flex justify-between items-cernter p-4 ml-4">
-          <p className="font-semibold text-lg">Settings</p>
+          <p className="font-semibold text-lg dark:text-black">Settings</p>
           <button
             type="button"
             onClick={() => setThemeSettings(false)}
             style={{ color: "rgb(153,171,180)", borderRadius: "50%" }}
-            className="text-2xl p3 hover:drop-shadow-xl hover:bg-light-gray"
+            className="text-2xl p3 hover:drop-shadow-xl hover:bg-light-gray "
           >
             <MdOutlineCancel />
           </button>
         </div>
         <div className="flex-col border-t-1 border-color p-4 ml-4">
-          <p className="font-semibold text-lg">Theme Options</p>
+          <p className="font-semibold text-lg dark:text-black">Theme Options</p>
           <div className="mt-4">
             <input
               type="radio"
@@ -36,7 +36,10 @@ const ThemeSettings = () => {
               onChange={setMode}
               checked={currentMode === "Light"}
             />
-            <label htmlFor="light" className="ml-2 text-md cursor-pointer">
+            <label
+              htmlFor="light"
+              className="ml-2 text-md cursor-pointer dark:text-black"
+            >
               Light
             </label>
           </div>
@@ -50,13 +53,16 @@ const ThemeSettings = () => {
               onChange={setMode}
               checked={currentMode === "Dark"}
             />
-            <label htmlFor="dark" className="ml-2 text-md cursor-pointer">
+            <label
+              htmlFor="dark"
+              className="ml-2 text-md cursor-pointer dark:text-black"
+            >
               Dark
             </label>
           </div>
         </div>
         <div className="flex-col border-t-1 border-color p-4 ml-4">
-          <p className="font-semibold text-lg">Theme Colors</p>
+          <p className="font-semibold text-lg dark:text-black">Theme Colors</p>
           <div className="flex gap-3">
             {themeColors.map((item, index) => {
               return (

@@ -9,7 +9,7 @@ import { links } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
 
 const Sidebar = () => {
-  const { activeMenu, setActiveMenu, screenSize, currentColor } =
+  const { activeMenu, setActiveMenu, screenSize, currentColor, currentMode } =
     useStateContext();
 
   const handleCloseSidebar = () => {
@@ -45,7 +45,9 @@ const Sidebar = () => {
                 className="text-xl rounded-full p-3 hover:bg-light-gray mt-4 block "
                 // md:hidden was removed for dev
               >
-                <MdOutlineCancel />
+                <MdOutlineCancel
+                  color={currentMode === "Dark" ? "darkgray" : ""}
+                />
               </button>
             </TooltipComponent>
           </div>
