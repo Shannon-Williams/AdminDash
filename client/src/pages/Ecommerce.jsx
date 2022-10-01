@@ -76,7 +76,7 @@ const Ecommerce = () => {
                 <span>
                   <GoPrimitiveDot />
                 </span>
-                <span>Expense</span>
+                <span className="text-gray-500">Expense</span>
               </p>
               <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
                 <span>
