@@ -4,7 +4,7 @@
 
 ## About The Project
 
-![](preview\admin dash board home page.png)
+<img src="preview\admin dash board home page.png" />
 
 A Frontend project to create a modern admin dashboard to visualize mock data and a theme setting sidebar to toggle between light and dark mode and different color themes using ReactJS, tailwind and syncfusion material UI library. I plan to explore javascripts library to help visualize data and this project was my first attempt. The frontend project has 4 mini-apps intergrated using components from syncfusion, Calender App, Kanban App, Editor, and Color-Picker. This is a work in progress and much more functionality can be included, ideally I would like to connect a backend to this application to make the data more dynamic.
 
@@ -43,32 +43,32 @@ A Frontend project to create a modern admin dashboard to visualize mock data and
 
 ### Admin Settings
 
-![](preview\admin settings.png)
+<img src="preview\admin settings.png"/>
 
 ### Dark Mode
 
-![](preview\dark_mode.png)
+<img src="preview\dark_mode.png"/>
 
 ### Calender App
 
-![](preview\calender_app.png)
+<img src="preview\calender_app.png"/>
 
 ### Kanban App
 
-![](preview\Kanban_app.png)
+<img src="preview\Kanban_app.png"/>
 
 ### WYSIWYG Editor App
 
-![](preview\editor_app.png)
+<img src="preview\editor_app.png"/>
 
 ### Color Picker App
 
-![](preview\color_picker_app.png)
+<img src="preview\color_picker_app.png"/>
 
 ### Line Chart
 
-![](preview\line_chart.png)
+<img src="preview\line_chart.png"/>
 
 ### Area Chart
 
-![](preview\area_chart.png)
+<img src="preview\area_chart.png"/>
