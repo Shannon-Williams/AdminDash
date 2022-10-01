@@ -24,7 +24,7 @@ A Frontend project to create a modern admin dashboard to visualize mock data and
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Shannon-Williams/AdminDash.git
    ```
 2. Install NPM packages
    ```sh
