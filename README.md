@@ -72,3 +72,7 @@ A Frontend project to create a modern admin dashboard to visualize mock data and
 ### Area Chart
 
 <img src="preview\area_chart.png"/>
+
+## Acknowledgments
+
+- https://www.syncfusion.com/
