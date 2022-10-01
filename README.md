@@ -17,7 +17,7 @@ A Frontend project to create a modern admin dashboard to visualize mock data and
   OR
   - yarn
   ```sh
-  npm install
+  yarn install
   ```
 
 ### Installation
